@@ -1,0 +1,17 @@
+{
+  "name": "kamat-metals",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "rohan lamb",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "form-serializer": "^2.5.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.5"
+  }
+}
