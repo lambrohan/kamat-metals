@@ -5048,8 +5048,7 @@ hr {
 
 #myFooter .social-networks {
   text-align: center;
-  padding-top: 30px;
-  padding-bottom: 16px; }
+  padding-top: 30px; }
 
 #myFooter .social-networks a {
   font-size: 32px;
@@ -5068,6 +5067,15 @@ hr {
 
 #myFooter .twitter:hover {
   color: #00aced; }
+
+#myFooter .instagram:hover {
+  color: #ad2dae; }
+
+#myFooter .flickr:hover {
+  color: #ff0084; }
+
+#myFooter .reddit:hover {
+  color: orangered; }
 
 #myFooter .btn {
   color: white;
