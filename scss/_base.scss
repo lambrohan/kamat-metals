@@ -109,19 +109,29 @@ hr{
   align-items: center;
   justify-content: center;
 
-  input,textarea{
+  input{
     // color: white !important;
     background: transparent;
     border: 1px solid #2f2f2f;
-    padding:8px;
+    padding:6px;
     margin:8px 0;
     width: 100%;
     overflow: auto;
   }
+  textarea{
+    background: transparent;
+    border: 1px solid #2f2f2f;
+    padding: 6px 8px;
+    height: 75%;
+    margin:8px 0;
+    width: 100%;
+    overflow: auto;
+
+  }
 
   button{
-    width: 400px;
-    margin-top: 8px;
+    width: 350px;
+    margin: 8px;
     border: 1px solid #2f2f2f;
     border-radius: 4px;
     background: transparent;
@@ -238,6 +248,14 @@ hr{
     .text-area{
       margin-left: 0;
       margin-top: 1rem;
+    }
+  }
+
+  .dist-form{
+   
+    textarea{
+      height: 50%;
+
     }
   }
 
