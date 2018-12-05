@@ -80,9 +80,10 @@ if(window_width<600){
 $(document).ready(function(){
 
   $('.product-btn').on('click',function(){
-    var id = $(this).attr('id');
+    var id = $(this).attr('name');
     selectedProduct = id;
     localStorage.setItem('selectedProduct',id);
+
     
   })
 

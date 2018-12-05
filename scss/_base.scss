@@ -280,21 +280,6 @@ hr{
 
 // ----------------MEDIA QUERY END ---------------------------
 
-// product page
-
-.grid{
-  display:flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.product-card{
-  img{
-    width: 200px;
-  }
-}
 
 #testimonials{
   background-color: white;
