@@ -118,20 +118,14 @@ switch (selectedProduct) {
   case 'Home Decor' :{
     arrayToShow = homeDecor;
     break;
-
-
   }
   case 'Diya':{
     arrayToShow = diyaProducts;
     break;
-
-
   }
   case 'Murti':{
     arrayToShow = murtiProducts;
     break;
-
-
   }
 
   default :{
