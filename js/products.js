@@ -23,8 +23,8 @@ $('#product-heading').text(selectedProduct.toUpperCase());
 
 
 var giftProducts = [
-  new MyProduct('Ganapati Shadow','https://firebasestorage.googleapis.com/v0/b/uploadme-4348f.appspot.com/o/kamat%20metals%2Fall%20products%2Fc_gift%2F1.jpg?alt=media&token=a004129b-8e0e-4c10-927c-22ce9a3e882a','KM1CG11','','',3),
-  new MyProduct('Utaran','https://firebasestorage.googleapis.com/v0/b/uploadme-4348f.appspot.com/o/kamat%20metals%2Fall%20products%2Fc_gift%2F2.jpg?alt=media&token=8b01c908-d7a0-4632-ab85-0badc309415c','KM1CG12','','',3)
+  new MyProduct('Ganapati Shadow','https://firebasestorage.googleapis.com/v0/b/uploadme-4348f.appspot.com/o/kamat%20metals%2Fall%20products%2Fc_gift%2F1.jpg?alt=media&token=a004129b-8e0e-4c10-927c-22ce9a3e882a','KM1CG11','','',[0,1,2]),
+  new MyProduct('Utaran','https://firebasestorage.googleapis.com/v0/b/uploadme-4348f.appspot.com/o/kamat%20metals%2Fall%20products%2Fc_gift%2F2.jpg?alt=media&token=8b01c908-d7a0-4632-ab85-0badc309415c','KM1CG12','','',[0,1,2])
 ];
 
 var poojaSahitya = [
@@ -102,6 +102,7 @@ var murtiProducts = [
 switch (selectedProduct) {
   case 'Corporate Gift':{
     arrayToShow = giftProducts;
+    break;
   }
   case 'Pooja Sahitya' :{
     arrayToShow = poojaSahitya;
