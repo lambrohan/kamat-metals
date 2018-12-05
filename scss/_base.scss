@@ -45,7 +45,16 @@ hr{
   background-color:rgba(#c2c2c2, $alpha: 1);
   z-index: -3;
   padding-bottom: 3rem;
+  text-decoration: none;
+  a:hover,
+  {
+    color:white !important;
+    text-decoration: none;
+  } 
 
+}
+.product-btn:hover{
+  color:white !important;
 }
 
 .card-deck{

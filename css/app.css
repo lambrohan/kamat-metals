@@ -4846,7 +4846,14 @@ hr {
 #products {
   background-color: #c2c2c2;
   z-index: -3;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+  text-decoration: none; }
+  #products a:hover {
+    color: white !important;
+    text-decoration: none; }
+
+.product-btn:hover {
+  color: white !important; }
 
 .card-deck .card {
   box-sizing: border-box;
