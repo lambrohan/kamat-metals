@@ -150,6 +150,12 @@ function createCard(product) {
     return $(awesomeCard);
 }
 
+//footer year
+$(document).ready(function(){
+  $('#footer-year').text(new Date().getFullYear());
+});
+
+
 
 
 

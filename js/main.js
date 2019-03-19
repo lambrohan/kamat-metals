@@ -168,3 +168,8 @@ $feedback_form.submit(function(e){
   })
 
 })
+
+//footer year
+$(document).ready(function(){
+  $('#footer-year').text(new Date().getFullYear());
+});
